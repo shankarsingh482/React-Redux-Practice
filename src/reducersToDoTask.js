@@ -8,6 +8,7 @@ const reducer = function(state=inital_state,action)
 {
 
     const newState = {...state}
+    
     switch(action.type)
     {
         case "ADD_ITEMS":newState.text = action.payload
